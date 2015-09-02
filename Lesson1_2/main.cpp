@@ -12,9 +12,9 @@ int main()
     printf ("Введите угол альфа ");
     scanf ("%f", &alfa);
     alfa = alfa/(180./PI);
-    a = cos(alfa)/c;
+    a = cos(alfa)*c;
     printf ("a = %5.2f", a);
-    b = sin(alfa)/c;
+    b = sin(alfa)*c;
     s = (a + b)/2;
     beta = acos(b/c)*(180./PI);
     printf ("Площадь равна = %5.5f \n Угол beta = %5.5f \n", s, beta);
